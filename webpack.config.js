@@ -6,7 +6,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = {
     mode: 'production',
-    entry: path.resolve(__dirname, 'src/js/app.js'),
+    entry: path.resolve(__dirname, 'src/js/calendar.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
